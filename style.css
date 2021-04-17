@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    padding: 24px 16px;
+}
+.container{
+    background-color: white;
+    padding: 16px;
+}
+.header{
+    margin-top: 24px;
+}
+.header h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.header p{
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 8px;
+}
+.btn{
+    margin-top: 24px;
+}
+.section-title{
+    background-color: #C0C0C0;
+    border: 1px solid black;
+    padding: 2px 4px;
+    font-weight: 700;
+}
+.btn p{
+    margin-top: 8px;
+    
+}
+.academic-list,
+.work, 
+.project,
+.interest,
+.skills,
+.hobbies,
+.reference{
+    margin-top: 8px;
+    list-style-position: inside;
+}
+.academic-list li{
+    /* line-height: 16px; */
+     margin-bottom: 16px; 
+}
+.project li span{
+    font-weight: 700;
+}
+ @media(min-width: 768px){
+     body{
+        padding: 48px 32px;
+     }
+     .container{
+         padding: 32px;
+     }
+ }
+ @media(min-width: 1024px){
+     body{
+         padding: 120px 64px;
+     }
+     .container{
+         padding: 64px;
+         max-width: 1024px;
+         margin: 0 auto;
+     }
+     .btn{
+         margin-top: 32px;
+     }
+     li,p{
+         font-size: 1.125rem;
+     }
+
+ }
